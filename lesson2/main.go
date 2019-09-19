@@ -5,6 +5,16 @@ import (
 )
 
 func main() {
-	SqliteTest()
-	TimerTest()
+	//SqliteTest()
+
+	//TimerTest()
+
+	//ReadCharTest()
+	//ReadLineTest()
+	//GetArgs()
+	//FlagTest()
+	//JsonSerializeTest()
+	//JsonDeSerializeTest()
+
+	GetTest()
 }
