@@ -16,5 +16,6 @@ func main() {
 	//JsonSerializeTest()
 	//JsonDeSerializeTest()
 
-	GetTest()
+	//GetTest()
+	CallCTest()
 }
