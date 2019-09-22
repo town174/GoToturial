@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	//fmt.Println("My Favorite number is", rand.Intn(20))
 
@@ -18,7 +16,12 @@ func main() {
 
 	//短变量声明:= 可在类型明确的地方代替 var 声明
 	//不能函数外使用
-	k, m := 3, 4
-	fmt.Println(k, m)
-	fmt.Println(UnNameFunc(1, 19))
+	//k, m := 3, 4
+	//fmt.Println(k, m)
+	//fmt.Println(UnNameFunc(1, 19))
+
+	//ArrayTest()
+	//SliceTest()
+	//MapTest()
+	StructTest()
 }
