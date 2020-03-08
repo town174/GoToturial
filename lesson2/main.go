@@ -1,8 +1,6 @@
 package main
 
-import (
-	_ "github.com/mattn/go-sqlite3"
-)
+//"github.com/mattn/go-sqlite3"
 
 func main() {
 	//SqliteTest()
@@ -17,5 +15,9 @@ func main() {
 	//JsonDeSerializeTest()
 
 	//GetTest()
-	CallCTest()
+	//CallCTest()
+
+	//RedisNewClient()
+	//RedisCall()
+	MysqlTest()
 }

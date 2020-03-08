@@ -1,5 +1,7 @@
 package main
 
+//import "fmt"
+
 func main() {
 	//fmt.Println("My Favorite number is", rand.Intn(20))
 
@@ -23,5 +25,11 @@ func main() {
 	//ArrayTest()
 	//SliceTest()
 	//MapTest()
-	StructTest()
+
+	//StructTest()
+	//stu1 := StuConstruct("wd","019234858",22)
+	//fmt.Println(stu1.name, stu1,num, stu1.age)
+	//Inherit()
+
+	DeferFunc()
 }

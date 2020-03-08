@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //先定义名字，在定义类型；先定义参数，在定义返回值
 func add(x, y int) int {
 	return x + y
@@ -23,4 +25,12 @@ var c, python, java int = 1, 2, 3
 //匿名函数
 var UnNameFunc = func(a, b int) int {
 	return a + b
+}
+
+func DeferFunc() {
+	fmt.Println("defer begin")
+	defer fmt.Println("defer 1")
+	defer fmt.Println("defer 2")
+	defer fmt.Println("defer 3")
+	fmt.Println("def end")
 }
